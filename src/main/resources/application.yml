@@ -1,0 +1,29 @@
+
+app:
+  name: MyApp
+  desc: ${app.name} is desc
+
+# @ConfigurationProperties
+## 1.正常
+#test:
+#  conf:
+#    pro1: 1
+#    pro2: 2
+#    pro3: 3
+#    pro4: 4
+## 2.宽松绑定
+test:
+  conf:
+    prO1: 1
+    pro_2: 2
+    pro-3: 3
+    PRO_4: 4
+## 3.list
+    list:
+      - 1
+      - 2
+      - 3
+# @Value
+value:
+  test: xxxppp
+
